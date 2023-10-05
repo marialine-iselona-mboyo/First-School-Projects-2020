@@ -1,0 +1,17 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: lightblue;
+    background-color: lightcyan;
+}
+
+h3 {
+    color: pink;
+    font-style: italic;
+}

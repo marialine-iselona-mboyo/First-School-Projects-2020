@@ -1,0 +1,65 @@
+div {
+    height: 300px;
+    color: white;
+}
+
+.rastafari {
+    background-image: linear-gradient(130deg,
+            red,
+            yellow,
+            rgba(0, 128, 0, 0.527));
+    /* background-image: repeating-linear-gradient(
+        rgba(0, 255, 34, 1) 0%,
+        rgba(0, 255, 34, 1) 10%,
+        red 10%,
+        red 20%
+      ),
+      linear-gradient(130deg, red, yellow, green); */
+}
+
+.gradient-overlay {
+    background-image: linear-gradient(to right bottom,
+            rgba(255, 0, 0, 0.651),
+            rgba(0, 0, 255, 0.76)),
+        url("https://picsum.photos/1200/700");
+    background-size: cover;
+    background-position: center;
+}
+
+.blueprint {
+    background-color: blue;
+    background-image: repeating-linear-gradient(transparent,
+            transparent 20px,
+            rgba(255, 255, 255, 0.3) 20px,
+            rgba(255, 255, 255, 0.3) 21px),
+        repeating-linear-gradient(to right,
+            transparent,
+            transparent 20px,
+            rgba(255, 255, 255, 0.3) 20px,
+            rgba(255, 255, 255, 0.3) 21px),
+        repeating-linear-gradient(to right,
+            transparent,
+            transparent 103px,
+            rgb(255, 255, 255) 103px,
+            rgb(255, 255, 255) 105px),
+        repeating-linear-gradient(transparent,
+            transparent 103px,
+            rgb(255, 255, 255) 103px,
+            rgb(255, 255, 255) 105px);
+}
+
+.polkadot {
+    background-image: radial-gradient(white, white 15%, transparent 15%),
+        radial-gradient(white, white 15%, red 15%);
+    background-size: 50px 50px;
+    background-position: 0px, 25px 48px;
+}
+
+
+.galaxy {
+    background-image: url("./img/planets/3.png"), url("./img/planets/5.png"),
+        url("./img/space.png");
+    background-position: 250px 100px, center, left top;
+    background-size: 150px, 80px, 300px 300px;
+    background-repeat: no-repeat, no-repeat, repeat;
+}

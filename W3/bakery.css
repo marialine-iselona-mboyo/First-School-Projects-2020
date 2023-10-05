@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(143, 219, 155);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 25px;
+}
+
+h1 {
+    text-shadow: 0px -2px rgb(78, 78, 78);
+}
+
+ul {
+    font-family: monospace;
+    padding-left: 0;
+}
+
+/* (+gekleurde witruimte) */
+li {
+    display: inline-block;
+}
+
+/* boxshadow met hover selector gebruike,
+  hover selector? */
+a {
+    background-color: rgb(116, 190, 127);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+a:hover {
+    box-shadow: 5px 5px 5px 1px rgb(90, 92, 90);
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+#brownie {
+    font-family: sans-serif;
+}
+
+#brownie h2 {
+    border-bottom: 5px dashed rgb(0, 255, 39);
+}
+
+#brownie p {
+    font-style: italic;
+}
+
+#jelly {
+    font-family: sans-serif;
+}
+
+#jelly h2 {
+    font-family: monospace;
+    border: 5px double rgb(37, 211, 158);
+}
+
+#marzipan {
+    font-family: sans-serif;
+}
+
+#marzipan h2 {
+    border-top: 4px solid rgb(183, 74, 75);
+    border-bottom: 4px solid rgb(183, 74, 75);
+}
+
+#marzipan p {
+    font-style: italic;
+    font-weight: 600;
+}
+
+footer {
+    background-color: rgb(54, 88, 55);
+    color: white;
+    padding-bottom: 1rem;
+}
+
+footer p {
+    margin-left: 20%;
+    width: 80px;
+    border: 2px solid white;
+    padding: 0.5em;
+    padding-top: 2em;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>imageCoordinates</title>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+    ></script>
+    <style>
+      #box-shadow-div {
+        position: fixed;
+        top: 49%;
+        left: -48.85%;
+        width: 200%;
+        height: 200%;
+        pointer-events: none;
+      }
+      #box-shadow-div:before {
+        content: "";
+        border-bottom: 1px dashed black;
+        left: -50%;
+        position: absolute;
+        width: 100%;
+        pointer-events: none;
+      }
+      #box-shadow-div:after {
+        content: "";
+        border-left: 1px dashed black;
+        top: -50%;
+        position: absolute;
+        height: 200vh;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box-shadow-div"></div>
+    <img id="img" src="./img/angrybird.png" alt="" />
+    <div style="width:300px;">
+      <div style="padding-top:20px;">
+        <div id="coord"></div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function() {
+        $("img").mousemove(function(e) {
+          var offset = $(this).offset();
+          var X = e.pageX - offset.left;
+          var Y = e.pageY - offset.top;
+          $("#coord").text("X: " + X + ", Y: " + Y);
+        });
+      });
+
+      window.onload = function() {
+        var bsDiv = document.getElementById("box-shadow-div");
+        var x, y;
+        // On mousemove use event.clientX and event.clientY to set the location of the div to the location of the cursor:
+        window.addEventListener(
+          "mousemove",
+          function(event) {
+            x = event.clientX;
+            y = event.clientY;
+            if (typeof x !== "undefined") {
+              bsDiv.style.left = x + "px";
+              bsDiv.style.top = y + "px";
+            }
+          },
+          false
+        );
+      };
+    </script>
+  </body>
+</html>

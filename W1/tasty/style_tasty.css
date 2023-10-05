@@ -1,0 +1,19 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.kop {
+    background-color: lightsalmon;
+}
+
+.kop h1 {
+    color: darkred
+}
+
+.inhoud h2 {
+    background-color: orange;
+}
+
+#art_1 ul {
+    color: blue;
+}

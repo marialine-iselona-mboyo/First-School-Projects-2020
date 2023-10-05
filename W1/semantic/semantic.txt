@@ -1,0 +1,21 @@
+Semantische Elementen
+  Elementen dat betekenis geven aan de indeling &amp; inhoud van een webpagina
+    Inhoudstafel:
+
+      HTML5 Semantic Elements
+      Benefits of semantic elements
+
+    Articles
+      HTML5 Semantic Elements
+      Semantic HTML elements clearly describe it’s meaning in a human and machine readable way. Elements such as <code>&lt;header&gt;, &lt;footer&gt; </code>  and <code>&lt;article&gt;</code> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.</p>
+
+      Benefits of semantic elements
+      First, it is much easier to read. This is probably the first thing you will notice when looking at the first block of code using semantic elements. This is a small example, but as a programmer you can be reading through hundreds or thousands of lines of code. The easier it is to read and understand that code, the easier it makes your job.It has greater accessibility. You are not the only one that finds semantic elements easier to understand. Search engines and assistive technologies (like screen readers for users with a sight impairment) are also able to better understand the context and content of your website, meaning a better experience for your users.
+    Contact information
+      Luka Verhoeven
+      luka.verhoeven@ehb.be
+
+    this website is created by me
+
+      Emoji for html:
+      https://www.w3schools.com/charsets/ref_emoji_smileys.asp

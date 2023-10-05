@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header,
+section,
+footer {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    margin-top: 2em;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+}
+
+li a:hover {
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    color: deeppink;
+}
+
+
+/*  */
+.intro {
+    display: flex;
+    width: 70%;
+    margin: 2em auto;
+}
+
+.intro h2 {
+    font-size: 5em;
+    margin: 0.25em 0;
+}
+
+.intro a {
+    display: inline-block;
+    margin-top: 1em;
+    text-decoration: none;
+    background-color: deeppink;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 1.5em;
+}
+
+.intro-column {
+    width: 50%;
+}
+
+.intro img {
+    width: 100%;
+}
+
+
+/*  */
+.plans h2 {
+    text-align: right;
+    font-size: 3em;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+}
+
+.plan {
+    padding: 1em 2em;
+    margin: 1em;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(167, 167, 167);
+}
+
+footer {
+    text-align: center;
+}
