@@ -1,6 +1,5 @@
 # First-School-Projects-2020
 
-<h1>First School Projects</h1>
 
 <h2>About the file</h2>
 
